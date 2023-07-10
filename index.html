@@ -4,72 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Cesar Trujillo</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <hr/>
-    <h1>CESAR AUGUSTO TRUJILLO GIRALDO</h1>
-    <hr/>
-    <p>C.C. #1.117.515.240, de Florencia - Caquetá</p>
-    <p>31 años, Nacido el 3 de noviembre de 1990 en Florencia - Caquetá</p>
-    <p>Mz 4 Cs 144 Br/Bosques de pinares - Armenia (Quindio)</p>
-    <p>3232302244</p>
-    <a href="mailto:catgx55@gmail.com?subject=Contacto">catgx55@gmail.com</a>
-    <hr/>
-    <h3>PERFIL PERSONAL</h3>
-    <p>Persona seria, responsable, y conmuchas ganasde trabajar y aprender. 
-        Con el avance en mis estudios he adquirido habilidades de liderazgo y trabajo en equipo,
-        y afianzado la creatividad, argumentación y proposición de ideas y soluciones. 
-        Cuento con conocimientos básicos en lenguaje de programación JAVA, HTML Y CSS.
-    </p>
-    <hr/>
-    <h3>OBJETIVO PROFESIONAL</h3>
-    <P>Poner en práctica los conocimientos adquiridos durante mis estudios como ingeniero de Software,
-        terminar mi carrera profesional y unirme aun equipo de trabajo que me permita desarrollar capacidades
-        personales y profesionales, para que en el futuro pueda tener mi propia firma con la cual eventualmente pueda
-        brindar soluciones efectivas al medio.
-    </P>
-    <hr/>
-    <h3>EXPERIENCIA LABORAL</h3>
-    <ul>
-        <li>Asesor call center</li>
-        <li>Domiciliario</li>
-        <li>Operador de medios tecnologicos</li>
-        <li>Guarda de seguridad</li>
-        <li>Soldado profesional</li>
-    </ul>
-    <hr/>
-    <h3>FORMACIÓN ACADÉMICA</h3>
-    <ul>
-        <li>Analisis para el Desarrollo Movil con App Inventor, 40 horas</li>
-        <li>English Dot Works Beginner, 60 horas</li>
-        <li>Computación básica, 12 horas</li>
-        <li>Matemáticas para la física, 14 horas</li>
-        <li>Fundamento de Matemáticas, 13 horas</li>
-        <li>Prework: Configuración de entorno para Desarrollo en Windows, 10 horas</li>
-    </ul>
-    <hr/>
-    <h3>INTERESES</h3>
-    <table border="1px">
-        <tr>
-            <th>IDIOMAS</th>
-            <th>LENGUAJES DE PROGRAMCIÓN</th>
-            <th>TECNOLOGIA</th>
-        </tr>
-        <tr>
-            <td rowspan="3">Ingles</td>
-            <td>Java</td>
-            <td>Desarrollo de videjuegos</td>
-        </tr>
-        <tr>
-            <td>CShar</td>
-            <td>Diseño de paginas web</td>
-        </tr>
-        <tr>
-            <td>JavaScript</td>
-            <td>Desarrollo de Software</td>
-        </tr>
-    </table>
-    <hr/>
+    <section id="presentacion">
+        <h2>Cesar Augusto Trujillo Giraldo</h2>
+        <div class="perfil">
+            <img src="img/IMG_20221031_102248.jpg" alt="Fotografia de Cesar Trujillo" width="200" title="Cesar Trujillo">
+        </div>
 
+        
+
+        <fieldset>
+            <legend><strong>Datos Personales</strong></legend>
+            <p><strong>Correo:</strong> <a href="mailto: catgx55@gmail.com">catgx55@gmail.com</a></p>
+            <p><strong>Edad:</strong> 32 años</p>
+            <p><strong>Ciudad:</strong> Armenia - Quindio</p>
+            <p><strong>Celular:</strong> 3232302244</p>
+            <section class="redes">
+                <p><strong>Redes Sociales:</strong></p>
+                <a title="GitHub" href="https://github.com/Catgx55"><img src="img/github-logo.png" width="30" alt="@catgx55"></a>
+                <a title="Linkedin" href="https://www.linkedin.com/in/cesar-augusto-trujillo-giraldo-72a1a9239/"><img src="img/linkedin.png" width="30" alt="cesar-augusto-trujillo-giraldo-72a1a9239"></a>
+            </section>
+        </fieldset>
+    </section>
+
+    <section id="contenido">
+        <fieldset>
+            <legend><strong>Estudios Cursados</strong></legend>
+            <h3>Ingenieria de Software - Politecnico Grancolombiano</h3>
+            <h3>Analisis para el Desarrollo Movil con App Inventor - SENA</h3>
+            <h3>English Dot Works Beginner - SENA</h3>
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>Idiomas</strong></legend>
+            <div id="idioma">
+                <div class="col">
+                    <h3>Español</h3>
+                    <p>Nivel nativo</p>
+                </div>
+                <div class="col">
+                    <h3>Ingles</h3>
+                    <p>Nivel A1</p>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>Herramientas</strong></legend>
+            <table>
+                <tr>
+                    <th scope="col"><strong>Lenguajes de programación</strong></th>
+                    <th scope="col"><strong>Entornos SQL</strong></th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <li>Java</li>
+                        <li>CShar</li>
+                        <li>JavaScript</li>
+                    </td>
+
+                    <td>
+                        <li>SQL Server</li>
+                        <li>PostgreSQL</li>
+                        <li>MongoDB</li>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </section>
 </body>
 </html>
