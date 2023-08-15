@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+}
+
 h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ddfcfc;
@@ -97,6 +101,11 @@ p{
 
 body{
     background-color: #e0e1dd;
+}
+
+.lenguaje{
+    display: flex;
+    justify-content: end;
 }
 
 .FUMU---Revolutionising-Urgent-Deliveries-1-hex { color: #252626; }
